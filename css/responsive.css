@@ -148,20 +148,24 @@
   }
 
   .inquiry-right-content {
-    padding-left: 150px;
-    padding-top: 96px;
-    padding-bottom: 39px;
+    padding-left: 119px;
+
+    padding-right: 113px;
   }
 
   .inquiry-right-content h4 {
-    padding-bottom: 16px;
-    padding-left: 110px;
+    padding-left: 129px;
   }
 
   .inquiry-right-content p {
-    font-size: 13px;
-    padding-right: 118px;
-    text-align: center;
+    font-size: 12px;
+    padding-left: 79px;
+    padding-right: 78px;
+  }
+
+  .inquery-right-button .btn-2 a {
+    padding-bottom: 43px;
+    display: block;
   }
 
   #blog-part .blog-heading h3 {
@@ -391,31 +395,29 @@
 /* ================================= Xs Device =======================================*/
 
 @media (max-width: 575.98px) {
+  /*====================== Hero part =============== */
   .banner-left h1 {
-    font-size: 26px;
-    line-height: 43px;
+    font-size: 23px;
+    line-height: 35px;
     padding: 0 20px;
   }
 
   .banner-left p {
-    font-size: 11px;
-
-    padding: 0 43px;
+    font-size: 10px;
+    padding: 0 20px;
     margin-top: 17px;
-    line-height: 2;
-  }
-
-  #hero-part .wrapper .pricing a {
-    font-size: 14px;
-
-    background-color: #fcd980;
-    padding: 14px 23px;
+    line-height: 15px;
   }
 
   .work a {
-    font-size: 14px;
+    font-size: 9px;
+    padding: 12px 22px;
+  }
 
-    padding: 12px 25px;
+  #hero-part .wrapper .pricing a {
+    font-size: 9px;
+    background-color: #fcd980;
+    padding: 13px 18px;
   }
 
   .banner-img img {
@@ -423,32 +425,273 @@
     margin-top: 41px;
   }
 
-  .work-wrpapper .left-part h1 {
-    font-size: 35px;
+  /* ============Work part ================ */
+
+  .work-wrpapper {
+    padding: 43px 0;
   }
 
-  .work-wrpapper .left-part p {
-    font-size: 12px;
+  .work-wrpapper .left-part h1 {
+    font-size: 30px;
+    padding-bottom: 9px;
+  }
 
-    margin-top: 13px;
-    padding: 0 57px;
-    margin-bottom: 10px;
+  .work-wrpapper .left-part a {
+    font-size: 14px;
+  }
+
+  .work-wrpapper .main-box .box-1 img {
+    width: 35px;
+  }
+
+  .work-wrpapper .main-box .box-1 h1 {
+    font-size: 25px;
   }
 
   .work-wrpapper .main-box .box-1 p {
+    font-size: 11px;
+    padding: 0 58px;
+    line-height: 20px;
+  }
+  /* =================== Project part ================== */
+  #project-part .heading-left h2 {
+    font-size: 23px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #project-part .heading-btn a {
+    padding-left: 124px;
+  }
+
+  #project-part .left-main-img {
+    height: 315px;
+  }
+
+  #project-part .left-main-img .overlay .main-content h2 {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  #project-part .left-main-img .overlay .main-content {
+    padding-left: 5px;
+
+    bottom: 15%;
+  }
+
+  #project-part .left-main-img .overlay .main-content p {
+    font-size: 8px;
+    line-height: 13px;
+  }
+
+  #project-part .left-main-img .overlay .main-content a {
+    font-size: 11px;
+  }
+
+  #project-part .small-overlay .small-overlay-content h2 {
+    font-size: 17px;
+
+    line-height: 28px;
+  }
+
+  #project-part .small-overlay .small-overlay-content a {
+    font-size: 11px;
+  }
+
+  /* ==============  Feature ==================== */
+
+  .feature .feature-main-text p {
     font-size: 13px;
-    padding: 0 80px;
+  }
+
+  .feature img,
+  svg {
+    width: 27px;
+  }
+  .feature .feature-main-text h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .feature .main-box-feature .box h2 {
+    font-size: 18px;
+
+    padding-bottom: 8px;
+  }
+
+  .feature .main-box-feature .box p {
+    padding-right: 8px;
+    font-size: 9px;
+    line-height: 19px;
+  }
+
+  .feature .main-box-feature .box {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-bottom: 35px;
+  }
+
+  /* ===================== Client=================== */
+
+  .client-left h2 {
+    font-size: 25px;
+    line-height: 47px;
+    text-align: center;
+  }
+
+  .client-left p {
+    font-size: 8px;
+    text-align: center;
+    line-height: 21px;
+  }
+
+  .client-right h2 {
+    font-size: 11px;
+    line-height: 25px;
+  }
+
+  /*====================  Faq part========================= */
+
+  .faq-left h2 {
+    font-size: 20px;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .faq-left a {
+    font-size: 11px;
+  }
+
+  .accordion-item h2 {
+    font-size: 12px;
+  }
+
+  .accordion-item span {
+    font-size: 15px;
+  }
+
+  /* ================== inquery part ================= */
+
+  .inquiry-content {
+    padding: 0 21px;
+    padding-top: 77px;
+  }
+
+  .inquiry-content h3 {
+    font-size: 27px;
+    line-height: 44px;
+  }
+
+  .inquiry-content p {
+    font-size: 9px;
+  }
+
+  .inquiry-left {
+    height: 378px;
+  }
+
+  .inquiry-right-content h4 {
+    font-size: 24px;
+    padding-left: 8px;
+  }
+
+  .inquiry-right-content p {
+    font-size: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
     line-height: 20px;
   }
 
-  .work-wrpapper .main-box .box-1 {
-    background-color: #fcd9802f;
-    padding: 20px 0;
-    margin-bottom: 20px;
+  .inquiry-right-content .input-group input {
+    padding: 12px 0;
+    padding-left: 16px;
+    font-size: 12px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
   }
-  #bottone {
-    font-size: 14px;
 
-    padding: 17px 50px;
+  .inquery-right-button .btn-1 a {
+    padding: 16px 39px;
+    border-radius: 13px;
+
+    font-size: 13px;
+
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+  }
+
+  .inquery-right-button .btn-2 a {
+    font-size: 13px;
+  }
+
+  .inquiry-right-content {
+    padding-left: 23px;
+    padding-right: 16px;
+  }
+
+  /*  =================== Blog part ===================== */
+
+  #blog-part .blog-heading h3 {
+    font-size: 28px;
+  }
+
+  #blog-part .client-details h5 {
+    font-size: 11px;
+  }
+
+  #blog-part .client-details h3 {
+    font-size: 16px;
+
+    line-height: 29px;
+  }
+
+  #blog-part .client-details p {
+    font-size: 9px;
+    line-height: 20px;
+  }
+
+  #blog-part .client-details a {
+    font-size: 11px;
+  }
+
+  /* ==================== footer part ===================== */
+  .footer-left {
+    text-align: center;
+  }
+
+  .footer-left .footer-contact .contact-item {
+    padding: 7px 7px;
+  }
+
+  .footer-left .footer-contact .contact-item .email h3 {
+    font-size: 14px;
+  }
+
+  .footer-left .footer-contact .contact-item .email a {
+    font-size: 12px;
+  }
+
+  .footer-left .footer-contact .contact-item .call h3 {
+    font-size: 14px;
+  }
+  .footer-left .footer-contact .contact-item .call a {
+    font-size: 12px;
+  }
+
+  .footer-right h4 {
+    font-size: 33px;
+  }
+
+  .footer-right h6 {
+    font-size: 8px;
+    padding: 0 19px;
+    line-height: 21px;
   }
 }
